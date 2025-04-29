@@ -1,15 +1,12 @@
 public class Challenge3 {
-    // Instance variables
     private String name;
     private int marks;
 
-    // Constructor
     public Challenge3(String name, int marks) {
         this.name = name;
         this.marks = marks;
     }
 
-    // Method using if-else
     public void checkPassStatus() {
         if (marks >= 50) {
             System.out.println(name + " has passed.");
@@ -18,7 +15,6 @@ public class Challenge3 {
         }
     }
 
-    // Main method
     public static void main(String[] args) {
         // Create an object and check pass status
         Challenge3 student1 = new Challenge3("Alice", 70);
