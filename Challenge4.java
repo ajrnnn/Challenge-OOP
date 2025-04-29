@@ -7,7 +7,6 @@ public class Challenge4 {
         System.out.println("What is your name? ");
         String name = input.nextLine();
 
-
         System.out.println("How old are you? ");
         int age = input.nextInt();
 
