@@ -13,5 +13,4 @@ public class Challenge5 {
             input.close();
         }
 
-
 }
